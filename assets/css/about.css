@@ -56,14 +56,13 @@ a:hover{
         font-weight: 700;
         line-height: 70px; /* 112.903% */
     }
-   
     /* Desktop */
     @media screen and (min-width:576px)  {
-        .header{
+        .header-content{
             padding: 32px;
             width: 100vw;
             height: 590px;
-            background-image: url("/assets/img/about/bgr-about.png") !important; 
+            background-image: url("/assets/img/about/bgr-about.png") ; 
             background-repeat: no-repeat;
             background-size: cover;
         }
@@ -506,7 +505,7 @@ a:hover{
     .header-content{
         width: 100vw;
         height: 240px;
-        background-image: url("./assets/img/about/bgr-about.png") ; 
+        background-image: url("/assets/img/about/bgr-about.png") ; 
         background-repeat: no-repeat;
         background-size: cover;
         background-position: center center;
