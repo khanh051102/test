@@ -325,7 +325,7 @@ h2{
     .header-content{
         width: 100vw;
         height: 240px;
-        background-image: url("./assets/img/destination/bgr-destina.png") ; 
+        background-image: url("/assets/img/destination/bgr-destina.png") ; 
         background-repeat: no-repeat;
         background-size: cover;
         background-position: center center;
