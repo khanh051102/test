@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/assets/css/reset.css">
+    <link rel="stylesheet" href="assets/css/pages.css">
+    <title>27</title>
+</head>
+<body>
+    <!-- header -->
+    <header class="header">
+        <div class="header-content">
+            <nav class="navbar">
+                <div class="navbar__logo">
+                    <p class="navbar__logo--circle">ST</p>
+                    <p class="navbar__logo--text">Safe Tour<span style="color:#FF7B29">.</span></p>
+                </div>
+
+                <div class="navigation">
+                    <ul>
+                        <li><a href="index.html" >Home</a></li>
+                        <li><a href="about.html" >About</a></li>
+                        <li><a href="destination.html">Destinations</a></li>
+                        <li><a href="blog.html">Blog</a></li>
+                        <li><a href="pages.html" class="navigation__foot" style="color: var(--Typography-1, #2D3134);">Pages</a></li>
+                    </ul>
+                </div>
+                <div class="action">
+                    <a href="contact.html" class="btn action__btn">Contact us</a>
+                </div>
+                <!-- mobile -->
+                <label for="menucheckbox" class="bagach">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="18" height="16" viewBox="0 0 18 16" fill="none">
+                        <rect width="18" height="2" fill="#0B1F22"/>
+                        <rect y="7" width="18" height="2" fill="#0B1F22"/>
+                        <rect y="14" width="18" height="2" fill="#0B1F22"/>
+                      </svg>
+                </label>
+            </nav>
+        </div>
+        <div class="header-title">
+            <img src="/assets/img/blog/Shapes.png" alt="" class="header-img">
+            <h1 class="headerh1" >Tour</h1>
+        </div>
+    </header>
+    <!-- mobile header -->
+    <header class="headermobile">
+        <input type="checkbox" name="" id="menucheckbox" class="menucheckbox" hidden>
+        <!-- overlay -->
+        <label for="menucheckbox" class="menu-ovelay"></label>
+        <!-- menucontent -->
+        <div class="menu-drawer">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="destination.html" class="navigation__foot" >Destinations</a></li>
+                <li><a href="blog.html" >Blog</a></li>
+                <li><a href="pages.html" style="color: var(--Typography-1, #2D3134);">Pages</a></li>
+            </ul>
+        </div>
+    </header>
+    <!-- main   -->
+    <main>
+        <!-- SEARCH -->
+        <div class="searching">
+            <div class="sch__act">
+                <!-- ITEM1 -->
+                <div class="sch__item">
+                    <div class="sch__line1">Location</div>
+                    <div class="sch__line2">
+                        <div class="line2__position">Bali, Indonesia</div>
+                        <a href="#!" class="line2__arrow"><svg xmlns="http://www.w3.org/2000/svg" width="8" height="5" viewBox="0 0 8 5" fill="none">
+                            <path d="M7.05666 0L4 3.05666L0.943344 0L0 0.943312L4 4.94331L8 0.943312L7.05666 0Z" fill="black"/>
+                        </svg></a>
+                    </div>
+                </div>
+                <!-- ITEM2 -->
+                <div class="sch__item">
+                    <div class="sch__line1 xinchao">City</div>
+                    <div class="sch__line2">
+                        <div class="line2__position">Prambanan</div>
+                        <a href="#!" class="line2__arrow"><svg xmlns="http://www.w3.org/2000/svg" width="8" height="5" viewBox="0 0 8 5" fill="none">
+                            <path d="M7.05666 0L4 3.05666L0.943344 0L0 0.943312L4 4.94331L8 0.943312L7.05666 0Z" fill="black"/>
+                        </svg></a>
+                    </div>
+                </div>
+                <!-- ITEM3 -->
+                <div class="sch__item">
+                    <div class="sch__line1 xinchao">Guest</div>
+                    <div class="sch__line2">
+                        <div class="line2__position">8 Persons</div>
+                        <a href="#!" class="line2__arrow"><svg xmlns="http://www.w3.org/2000/svg" width="8" height="4.94" viewBox="0 0 8 4.94" fill="none">
+                            <path d="M7.05666 0L4 3.05666L0.943344 0L0 0.943312L4 4.94331L8 0.943312L7.05666 0Z" fill="black"/>
+                        </svg></a>
+                    </div>
+                </div>
+                <!-- BUTTON SEARCH -->
+                <a href="#!" class="btn searching__btn"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16" fill="none">
+                    <circle cx="8" cy="8" r="7" stroke="white" stroke-width="2"/>
+                    <path d="M16.2929 17.7071C16.6834 18.0976 17.3166 18.0976 17.7071 17.7071C18.0976 17.3166 18.0976 16.6834 17.7071 16.2929L16.2929 17.7071ZM12.2929 13.7071L16.2929 17.7071L17.7071 16.2929L13.7071 12.2929L12.2929 13.7071Z" fill="white"/>
+                </svg> Search</a>
+            </div>
+        </div>
+        <!-- main-content2 -->
+        <div class="maincontent-2">
+            <div class="main-item">
+                <img src="/assets/img/pages/1.png" alt="" class="xinchaomoi" >
+                <div class="div">
+                    <div class="div-item">
+                        <p class="div-name">Indonesia</p>
+                        <div class="div-info">
+                            <div class="time">9 days</div>
+                            <div class="cost">$6,500</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="main-item">
+                <img src="/assets/img/pages/2.png" alt="" class="xinchaomoi">
+                <div class="div">
+                    <div class="div-item">
+                        <p class="div-name">Thiland</p>
+                        <div class="div-info">
+                            <div class="time">9 days</div>
+                            <div class="cost">$6,500</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="main-item">
+                <img src="/assets/img/pages/3.png" alt="" class="xinchaomoi">
+                <div class="div">
+                    <div class="div-item">
+                        <p class="div-name">Dubai</p>
+                        <div class="div-info">
+                            <div class="time">9 days</div>
+                            <div class="cost">$6,500</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="main-item">
+                <img src="/assets/img/pages/4.png" alt="" class="xinchaomoi">
+                <div class="div">
+                    <div class="div-item">
+                        <p class="div-name">Maldives</p>
+                        <div class="div-info">
+                            <div class="time">9 days</div>
+                            <div class="cost">$6,500</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="main-item">
+                <img src="/assets/img/pages/5.png" alt="" class="xinchaomoi">
+                <div class="div">
+                    <div class="div-item">
+                        <p class="div-name">Dubai</p>
+                        <div class="div-info">
+                            <div class="time">9 days</div>
+                            <div class="cost">$6,500</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="main-item">
+                <img src="/assets/img/pages/6.png" alt="" class="xinchaomoi">
+                <div class="div">
+                    <div class="div-item">
+                        <p class="div-name">Bangladesh</p>
+                        <div class="div-info">
+                            <div class="time">9 days</div>
+                            <div class="cost">$6,500</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+    <!-- footter -->
+    <footer>
+        <div class="footer-content">
+            <div class="foot1">
+                <p class="foot11">Resources</p>
+                <p class="foot12">Download</p>
+                <p class="foot13">Help Center</p>
+                <p class="foot14">Guide Book</p>
+                <p class="foot15">App Directory</p>
+            </div>
+            <div class="foot2">
+                <p class="foot11">Travellers</p>
+                <p class="foot12">Why Travellers</p>
+                <p class="foot13">Enterprice</p>
+                <p class="foot14">Customer Stories</p>
+                <p class="foot15">Instagram post</p>
+            </div>
+            <div class="foot3">
+                <p class="foot11">Company</p>
+                <p class="foot12">Travelling</p>
+                <p class="foot13">About Locato</p>
+                <p class="foot14">Success</p>
+                <p class="foot15">Information</p>
+            </div>
+            <div class="foot4">
+                <p class="foot11">Get in Touch</p>
+                <p class="foot42">Feel free to get in touch with us vai email</p>
+                <p class="foot43">email@gmail.com</p>
+            </div>
+            <div class="foot-line"></div>
+            
+        </div>
+        <div class="footend">
+            <div class="maincontent">
+                <div class="divdiv">
+                    <p class="navbar__logo--circle footend__logo--circle ">ST</p>
+                    <p class="navbar__logo--text footend__logo--circle">Safe Tour<span style="color:#FF7B29">.</span></p>
+                </div>
+                <div class="footnavi">
+                    <ul class="footnav">
+                        <li><a href="index.html" class="fotnav">Home</a></li>
+                        <li><a href="about.html">About</a></li>
+                        <li><a href="destination.html">Destinations</a></li>
+                        <li><a href="blog.html">Blog</a></li>
+                        <li><a href="pages.html">Pages</a></li>
+                    </ul>
+                </div>
+                <img src="/assets/img/htmlSocial.svg" alt="" class="social">
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
