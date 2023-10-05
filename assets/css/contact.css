@@ -62,7 +62,7 @@ h2{
         padding: 32px;
         width: 100vw;
         height: 590px;
-        background-image: url("/assets/img/about/bgr-about.png") ; 
+        background-image: url("./assets/img/about/bgr-about.png") ; 
         background-repeat: no-repeat;
         background-size: cover;
     }
@@ -208,7 +208,7 @@ h2{
     .main2{
         width: 100vw;
         height: 510px;
-        background-image: url(/assets/img/pages/snazzy-image\ \(1\)\ 1.png);
+        background-image: url("./assets/img/pages/1.png");
         background-repeat: no-repeat;
         background-size: cover;
         overflow: hidden;
