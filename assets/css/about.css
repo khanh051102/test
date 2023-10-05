@@ -56,16 +56,17 @@ a:hover{
         font-weight: 700;
         line-height: 70px; /* 112.903% */
     }
+    .header-content{
+        padding: 32px;
+        width: 100vw;
+        height: 590px;
+        background-image: url("/assets/img/about/bgr-about.png") ; 
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
     /* Desktop */
     @media screen and (min-width:576px)  {
-        .header-content{
-            padding: 32px;
-            width: 100vw;
-            height: 590px;
-            background-image: url("/assets/img/about/bgr-about.png") ; 
-            background-repeat: no-repeat;
-            background-size: cover;
-        }
+        
         .navbar{
             width: 1170px;
             margin: 0 auto;
