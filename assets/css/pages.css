@@ -27,6 +27,12 @@ a:hover{
     opacity: 0.9;
 }
 @media screen and (min-width:576px)  {
+    .bagach{
+        display: none;
+    }
+    .headermobile{
+        display: none;
+    }
 .btn{
     display: inline-block;
     min-width: 131px;
